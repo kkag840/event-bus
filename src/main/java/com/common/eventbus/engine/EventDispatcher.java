@@ -7,9 +7,11 @@ import com.common.eventbus.repository.EventStoreRepository;
 import com.common.eventbus.repository.EventSubscriptionRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class EventDispatcher {
 

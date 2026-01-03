@@ -8,9 +8,11 @@ import com.common.eventbus.repository.EventSubscriptionRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 @RequiredArgsConstructor
 public class DefaultEventPublisher implements EventPublisher {
 
